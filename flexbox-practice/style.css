@@ -19,14 +19,8 @@
     justify-content: space-between;
 }
 
-.links {
-    /* border: 3px dotted black;  For debugging */
-    display: flex;
-    /* justify-content: flex-end; */
-}
-
-.login {
-    margin-left: 20px;
+.signup {
+    margin-left: auto;
 }
 
 .header-container {
@@ -56,7 +50,6 @@
   align-self: flex-end;
   margin-bottom: 20px;
 }
-
 
 .photo-grid-container {
     display: flex;
