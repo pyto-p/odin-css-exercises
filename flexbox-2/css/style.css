@@ -1,0 +1,64 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo > h1 {
+  margin: 10px;
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-basis: 100%;
+}
+
+.left-links > ul {
+    display: flex;
+    gap: 18px;
+    padding-left: 10px;
+}
+
+.left-links > ul > li {
+    display: flex;
+}
+
+.right-links {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.right-links > ul {
+    display: flex;
+    gap: 18px;
+    padding-right: 10px;
+}
+
+.right-links > ul > li {
+    display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  text-decoration: none;
+}
